@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:wght@200&family=League+Gothic&family=Playfair+Display:ital@0;1&display=swap');
+
+@media only screen and (min-width:50px){
+body{
+font-family: 'Bebas Neue', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+  
+  .container {
+    width: 1124px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+
+header .logo h1 {
+  padding:10px;
+  color:#1c1c1c
+}
+
+header .tiempo {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    width: 100%;
+    height: 10px;
+  
+}
+
+header .opciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    color: grey;
+    border-bottom: 1px solid #5d79ea;
+}
+
+header .opciones ul {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+header .opciones ul li {
+    margin-right: 30px;
+}
+
+header .opciones ul li a {
+    color: grey;
+    font-size: 16px;
+    text-decoration: none;
+}
+header a:hover{
+    background-color: #d9d8e4;
+    color: black;
+    transition: ease-in .4s;
+    border:20rem;
+    border-radius: 5px;
+}
+
+/* news feed */
+
+
+#news-feed .row .left-col {
+    width: 75%;
+     height:40%;
+
+}
+#news-feed .row .left-col img {
+    width: 90%;
+    padding:10px;
+    height:40%;
+}
+
+#news-feed .row .left-col .boton{
+  border:none;
+  width:100%;
+  color:#fff;
+  font-size:20px;
+  background:#5d79ea;
+  padding:  15 px 20px;
+  border-radius:5px;
+  cursor: pointer;
+
+}
+
+#news-feed .row .left-col .boton:hover{
+background:#97bae7;
+  
+}
+
+#news-feed .row .right-col {
+    width: 25%;
+}
+
+#news-feed article {
+    display: flex;
+    flex-direction: column;
+    padding-right: 3%;
+    height: 100%;
+}
+
+#news-feed .row .left-col article {
+    height: 100%;
+}
+
+#news-feed .row .right-col article {
+  height: 35%;
+}
+
+#news-feed .row .right-col article .deportes {
+  border: dashed;
+  border-width: 1px;
+border-color:#ddd4d4;
+  padding:20px;
+}
+
+#news-feed .row .right-col article .tecnologia {
+  border: dashed;
+  border-width: 1px;
+  border-color:#ddd4d4;
+  padding:20px;
+}
+
+hr {border: 0 ; border-top: 1px solid blue; width: 90%;}
+
+
+#news-feed h1 {
+    margin: 25px 0 20px 0;
+    font-size: 25px; 
+    display:inline;
+}
+
+#news-feed h2 {
+    color: black;
+    font-size: 16px;
+    flex-grow: 1;
+
+ 
+}
+
+#news-feed p {
+    flex-grow: 1;
+    font-size: 20px;
+  color: grey;
+  border:dashed;
+  border-width: 1px;
+  border-color:#ddd4d4;
+
+ 
+
+}
+
+#news-feed figure {
+    margin: 0;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+#news-feed figure img {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#news-feed figure figcaption {
+    width: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0, 0.6);
+
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+}
+
+#news-feed figure:hover figcaption {
+    background: black;
+}
+.footer {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        padding: 2%;
+        min-width: 1124px;
+ }
+
+ .enlaces{
+     width: 70%;
+     display: flex;
+     align-items: center;
+     padding: 1%;
+ }
+
+ .enlaces a {
+    padding: 2%;
+    margin-right: 4%;
+    font-size:1.3vw;
+    text-decoration: none;
+    color : #000000;
+}
+ .info{
+    width: 30%;
+}
+.info a{
+    width: 30%;
+    font-size:1.3vw;
+    text-decoration: none;
+}
+.espacio{
+    width: 100%;
+    background-color: #5d79ea;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    min-width: 1124px;
+}
+  
+.cierre{
+    width: 100%;
+    background-color: #d3d6e4;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    min-width: 1124px;
+}
+
+@media(min-width:2000px){
+ header .logo img {
+    margin:auto;
+    
+  }
+}
+
+@media(max-width:215px){
+  .boton{   
+    width:50%;
+  
+}
+}
+.logo1{
+  background-color: rgb(93 121 234);
+  padding: inherit;
+  border-radius: 50%;
+  border: double;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+  border-color: ivory;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.logo{
+  background-color: rgb(93 121 234);
+  padding: inherit;
+  border-radius: 50%;
+  border: double;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+  border-color: ivory;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
